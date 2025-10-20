@@ -4,7 +4,7 @@ import axios from "axios";
 export const userDataContext = createContext();
 
 const UserContext = ({ children }) => {
-  const serverUrl = "https://virtual-asistant-backend-41rx.onrender.com"; 
+  const serverUrl = "https://ai-assistant-zi7q.onrender.com"; 
   const [userData, setUserData] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
   const [frontenImage, setFrontendImage] = useState(null); 
